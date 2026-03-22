@@ -3,9 +3,12 @@
 #include <inttypes.h>
 #include <string.h>
 #include <stdlib.h>
+#include <windows.h>
+
 #include "RSA_lib.h"
 
 int main(){
+    SetConsoleOutputCP(65001);
 
     uint64_t p   = 61;
     uint64_t q   = 53;
